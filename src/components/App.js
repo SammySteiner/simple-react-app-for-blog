@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
 import NavBar from './NavBar'
-import PetFormContainer from '../containers/PetFormContainer'
+import ZooFormContainer from '../containers/ZooFormContainer'
 
 function App() {
   return (
     <div className='zoobook'>
       <NavBar />
-      <PetFormContainer />
+      <ZooFormContainer />
     </div>
   )
 }

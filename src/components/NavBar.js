@@ -4,7 +4,7 @@ function NavBar() {
     <nav>
       <div className='nav-wrapper'>
         <a className='brand-logo'>
-          PetBook
+          ZooBook
         </a>
       </div>
     </nav>
