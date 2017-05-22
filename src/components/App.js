@@ -4,7 +4,7 @@ import PetFormContainer from '../containers/PetFormContainer'
 
 function App() {
   return (
-    <div className={'zoobook'}>
+    <div className='zoobook'>
       <NavBar />
       <PetFormContainer />
     </div>
