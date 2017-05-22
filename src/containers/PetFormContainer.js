@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
 import PetList from '../components/PetList'
-
-
 export default class PetFormContainer extends Component {
   constructor() {
     super()
@@ -10,13 +8,11 @@ export default class PetFormContainer extends Component {
       animals: []
     }
   }
-
   handleChange(e){
     this.setState({
       input: e.target.value
     })
   }
-
   handleSubmit(e) {
     e.preventDefault()
     this.setState({
@@ -26,7 +22,6 @@ export default class PetFormContainer extends Component {
       input: ''
     })
   }
-
   render() {
     return (
       <div className="row">

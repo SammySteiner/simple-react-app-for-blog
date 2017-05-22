@@ -1,5 +1,4 @@
 import React from 'react'
-
 function NavBar() {
   return (
     <nav>
@@ -9,7 +8,6 @@ function NavBar() {
         </a>
       </div>
     </nav>
-
   )
 }
 export default NavBar
